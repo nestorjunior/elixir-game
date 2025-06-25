@@ -1,18 +1,5 @@
 defmodule ElixirGame do
-  @moduledoc """
-  Documentation for `ElixirGame`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> ElixirGame.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def create_player(name, move_avg, move_rnd, move_heal) do
+    Player.build(name, move_rnd, move_avg, move_heal)  
   end
 end
