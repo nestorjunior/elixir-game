@@ -1,0 +1,28 @@
+# Elixir build artifacts
+/_build/
+deps/
+erl_crash.dump
+
+# Elixir/Phoenix specific
+config/*.secret.exs
+config/dev.secret.exs
+
+# If you're using releases
+rel/
+*.ez
+
+# Optional: Elixir language server (ElixirLS) plugin for VS Code
+.elixir_ls/
+
+# Optional: macOS files
+.DS_Store
+
+# Optional: environment files
+.env
+.env.*
+
+# Optional: Node.js artifacts (se estiver usando Phoenix com frontend JS)
+assets/node_modules/
+assets/.webpack/
+assets/.esbuild/
+assets/build/
